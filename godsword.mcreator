@@ -1,0 +1,539 @@
+{
+  "mod_elements": [
+    {
+      "name": "GodSwordPickaxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_pickaxe"
+    },
+    {
+      "name": "GodSwordAxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_axe"
+    },
+    {
+      "name": "GodSwordSword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_sword"
+    },
+    {
+      "name": "GodSwordShovel",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_shovel"
+    },
+    {
+      "name": "GodSwordHoe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_hoe"
+    },
+    {
+      "name": "GodSwordPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_pickaxe_recipe"
+    },
+    {
+      "name": "GodSwordAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_axe_recipe"
+    },
+    {
+      "name": "GodSwordSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_sword_recipe"
+    },
+    {
+      "name": "GodSwordShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_shovel_recipe"
+    },
+    {
+      "name": "GodSwordHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_hoe_recipe"
+    },
+    {
+      "name": "GodSwordTab",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_tab"
+    },
+    {
+      "name": "Athens",
+      "type": "dimension",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "athens",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "InvisiArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisi_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Invisibility_armorArmor",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Invisibility_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "Invisibility_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_armor_armor_body_recipe"
+    },
+    {
+      "name": "Invisibility_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "Invisibility_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibility_armor_armor_boots_recipe"
+    },
+    {
+      "name": "InvisiArmor",
+      "type": "armor",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisi_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "InvisiArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisi_armor_helmet_recipe"
+    },
+    {
+      "name": "InvisiArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisi_armor_body_recipe"
+    },
+    {
+      "name": "InvisiArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisi_armor_leggings_recipe"
+    },
+    {
+      "name": "InvisiArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisi_armor_boots_recipe"
+    },
+    {
+      "name": "FourBigGuys",
+      "type": "musicdisc",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_big_guys"
+    },
+    {
+      "name": "ZeusThunderboltRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeus_thunderbolt_recipe"
+    },
+    {
+      "name": "Warwer",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warwer"
+    },
+    {
+      "name": "InvisibilityarmorArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisibilityarmor_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoonBoots",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_boots",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "_Pickaxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_pickaxe"
+    },
+    {
+      "name": "_Axe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_axe"
+    },
+    {
+      "name": "_Sword",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_sword"
+    },
+    {
+      "name": "_Shovel",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_shovel"
+    },
+    {
+      "name": "_Hoe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_hoe"
+    },
+    {
+      "name": "_PickaxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_pickaxe_recipe"
+    },
+    {
+      "name": "_AxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_axe_recipe"
+    },
+    {
+      "name": "_SwordRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_sword_recipe"
+    },
+    {
+      "name": "_ShovelRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_shovel_recipe"
+    },
+    {
+      "name": "_HoeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "_hoe_recipe"
+    },
+    {
+      "name": "ToTheMoon",
+      "type": "achievement",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_the_moon"
+    },
+    {
+      "name": "CursedIronIngot",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_iron_ingot"
+    },
+    {
+      "name": "CursedIngot",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_ingot"
+    },
+    {
+      "name": "BloodOre",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_ore"
+    },
+    {
+      "name": "BloodIngot",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_ingot"
+    },
+    {
+      "name": "CursedScytheRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_scythe_recipe"
+    },
+    {
+      "name": "GrimReaper",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grim_reaper"
+    },
+    {
+      "name": "GodSwordAxeRightClickedInAir",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god_sword_axe_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "fourbiguys",
+      "files": [
+        "lilnutz_-_four_big_guys_myfreemp3.vip_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "sdfasdf",
+      "files": [
+        "lilnutz_-_four_big_guys_myfreemp3.vip_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fygdhuksdhjl",
+      "files": [
+        "yt5s.com-4_big_guys_official_music_video-128kbps"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "deez",
+      "files": [
+        "yt5s.com-camera_shutter_speed_matches_helicopters_rotor_with_the_right_music-128kbps"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "moonboots",
+      "files": [
+        "yt5s.com-ducktales_music_nes_-_the_moon_theme-128kbps"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.godsword._axe": "_ Axe",
+      "item.godsword.god_sword_hoe": "Hoe",
+      "item.godsword.four_big_guys.desc": "LILNUTZ - 4 Big Guys",
+      "item.godsword.invisibility_armor_armor_leggings": "Invisibility_armor Leggings",
+      "item.godsword._sword": "Cursed Scythe",
+      "item.godsword.invisibility_armor_armor_boots": "Invisibility_armor Boots",
+      "item.godsword.invisi_armor_helmet": "Invisibility Helmet",
+      "block.godsword.blood_ore": "Blood Ore",
+      "subtitles.moonboots": "",
+      "item.godsword.four_big_guys": "Four Big Guys",
+      "item.godsword.athens": "Zeus\u0027 Thunderbolt",
+      "item.godsword.invisi_armor_leggings": "Invisibility Leggings",
+      "item.godsword._pickaxe": "_ Pickaxe",
+      "item.godsword.god_sword_axe": "Cursed Scythe",
+      "advancements.to_the_moon.title": "To The Moon",
+      "itemGroup.tabgod_sword_tab": "God Sword Tab",
+      "advancements.to_the_moon.descr": "Craft or Obtain Moon Boots",
+      "item.godsword.god_sword_sword": "God Sword",
+      "biome.godsword.warwer": " warwer",
+      "item.godsword.invisibility_armor_armor_helmet": "Invisibility_armor Helmet",
+      "item.godsword.god_sword_shovel": "GodSword Shovel",
+      "item.godsword.cursed_iron_ingot": "Blood Droplet",
+      "advancements.grim_reaper.descr": "Obtain The Power Of the Cursed Scythe",
+      "item.godsword.invisibility_armor_armor_chestplate": "Invisibility_armor Chestplate",
+      "item.godsword._shovel": "_ Shovel",
+      "subtitles.sdfasdf": "",
+      "subtitles.fygdhuksdhjl": "",
+      "item.godsword.god_sword_pickaxe": "GodSword Pickaxe",
+      "item.godsword.invisi_armor_boots": "Moon Boots",
+      "item.godsword._hoe": "_ Hoe",
+      "subtitles.fourbiguys": "",
+      "subtitles.deez": "",
+      "advancements.grim_reaper.title": "Grim Reaper",
+      "item.godsword.cursed_ingot": "Cursed Ingot",
+      "item.godsword.invisi_armor_chestplate": "Invisibility Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "godsword",
+    "modName": "GodSword",
+    "version": "1.0.0",
+    "author": "crayc, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.godsword",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
